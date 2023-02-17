@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenario</title>
+    <link rel="stylesheet" href="css/scenario.css">
+</head>
+
+<body>
+    <script src="js/dices.js"></script>
+    <script src="js/scene.js"></script>
+    <div class="box">
+        <div class="scene" style="background-image: url(imgs/Forest.png); background-size: cover; ">
+            <h1 id="title">FOREST</h1>
+            <div class="dialog">
+                <p id="description">
+                </p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="dices">
+                <div class="result">
+                    <p id="msgResult"></p>
+                    <p id="resultDice"></p>
+                </div>
+            </div>
+            <div class="optionsDice">
+                <label>ROLL...</label>
+                <button id="d4" onclick="RollDice()">D4</button>
+                <button id="d6"onclick="RollDice()">D6</button>
+                <button id="d8"onclick="RollDice()">D8</button>
+                <button id="d10"onclick="RollDice()">D10</button>
+                <button id="d12"onclick="RollDice()">D12</button>
+                <button id="d20"onclick="RollDice()">D20</button>
+                <hr>
+            </div>
+            <div class="options">
+                <button id="option1" onclick="toScenario2()">NEXT</button>
+                <button id="option2">OPTION 2</button>
+                <button id="option3">OPTION 3</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
