@@ -1,4 +1,4 @@
-# RPGEnglishFifthOfHell
+# RPG - Fifth Of Hell
 
 Durante a disciplina de lingua inglesa, a professora nos incentivou a criar um RPG, aonde nós mesmos que idealizariamos o sistema, a história, e como ele funcionaria. Então criei esse jogo para apresentar a minha turma, que eu fiz utilizando HTML, CSS e Javascript.
 
