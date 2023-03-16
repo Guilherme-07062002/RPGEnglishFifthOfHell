@@ -1,148 +1,144 @@
 @font-face {
-    font-family: newFont;
-    src: url('alagard.ttf');
-    font-family: newFont2;
-    src: url('The\ Centurion\ .ttf');
-} 
+  font-family: newFont;
+  src: url("alagard.ttf");
+  font-family: newFont2;
+  src: url("The\ Centurion\ .ttf");
+}
 body {
-    background-color: #0E151F;
+  background-color: #0e151f;
 }
 
 div.box {
-    font-family: newFont;
-    background-color: #233133;
-    margin: 1%;
-    padding: 20%;
-    padding-bottom: 26%;
-    border-style: double;
-    border-color: #212242;
+  font-family: newFont;
+  background-color: #233133;
+  margin: 1%;
+  padding: 20%;
+  padding-bottom: 26%;
+  border-style: double;
+  border-color: #212242;
 }
 
-div.box>div.scene {
-    margin: 20px;
-    padding: 5px;
-    width: 900px;
-    height: 570px;
-    position: absolute;
-    top: 2%;
-    left: 1.5%;
-    border-style: dashed;
-    border-color: white;
+div.box > div.scene {
+  margin: 20px;
+  padding: 5px;
+  width: 900px;
+  height: 570px;
+  position: absolute;
+  top: 2%;
+  left: 1.5%;
+  border-style: dashed;
+  border-color: white;
 }
 
-div.box>div.scene>h1 {
-    margin: 15px;
-    color: white;
-    text-decoration: overline;
+div.box > div.scene > h1 {
+  margin: 15px;
+  color: white;
+  text-decoration: overline;
 }
 
-div.box>div.info {
-    background-color: #0E151F;
-    width: 365px;
-    height: 580px;
-    position: absolute;
-    right: 2.5%;
-    top: 5%;
-    border-style: dashed;
-    border-color: #212242;
+div.box > div.info {
+  background-color: #0e151f;
+  width: 365px;
+  height: 580px;
+  position: absolute;
+  right: 2.5%;
+  top: 5%;
+  border-style: dashed;
+  border-color: #212242;
 }
 
-div.box>div.scene>div.dialog {
-    background-color: #423752a3;
-    border-style: double;
-    border-color: white;
-    padding: 0px;
-    padding-bottom: 0px;
-    position: absolute;
-    left: 1.5%;
-    bottom: 2%;
-    width: 0px;
-    height: 0px;
-
+div.box > div.scene > div.dialog {
+  background-color: #423752a3;
+  border-style: double;
+  border-color: white;
+  padding: 0px;
+  padding-bottom: 0px;
+  position: absolute;
+  left: 1.5%;
+  bottom: 2%;
+  width: 0px;
+  height: 0px;
 }
 
-div.box>div.scene>div.dialog>p#description {
-    opacity: 0;
-    transition: 4s;
-    font-size: 23px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-align: justify;
-    margin-top: 3px;
-    letter-spacing: 1px;
+div.box > div.scene > div.dialog > p#description {
+  opacity: 0;
+  transition: 4s;
+  font-size: 23px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: justify;
+  margin-top: 3px;
+  letter-spacing: 1px;
 }
 
-div.box>div.info>div.dices {
-    background-color: #ce0746e9;
-    margin: 4%;
-    width: 335px;
-    height: 280px;
-    border-style: solid;
-    padding: 3px;
+div.box > div.info > div.dices {
+  background-color: #ce0746e9;
+  margin: 4%;
+  width: 335px;
+  height: 280px;
+  border-style: solid;
+  padding: 3px;
 }
-div.box>div.info>div.dices > div.result{
-    
-    font-size: 20px;
-    text-decoration: underline;
-    color: white;
-    padding: 10px;
-    margin-bottom: 0px;
-    
+div.box > div.info > div.dices > div.result {
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0px;
 }
-div.dices > div.result > p#msgResult{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 25px;
+div.dices > div.result > p#msgResult {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 25px;
 }
-div.box>div.info>div.dices > div.result > p#resultDice{
-    font-family: newFont2;
-    text-align: center;
-    margin-top: 0px;
-    text-decoration: inherit white;
-    font-size: 90px;
-    color: black;
-    text-decoration-color: red;
+div.box > div.info > div.dices > div.result > p#resultDice {
+  font-family: newFont2;
+  text-align: center;
+  margin-top: 0px;
+  text-decoration: inherit white;
+  font-size: 90px;
+  color: black;
+  text-decoration-color: red;
 }
-div.box>div.info> div.optionsDice{
-    font-family: newFont;
-    margin: 10px;
-    margin-left: 5px;
-    text-align: center;
-    letter-spacing: 2px;
+div.box > div.info > div.optionsDice {
+  font-family: newFont;
+  margin: 10px;
+  margin-left: 5px;
+  text-align: center;
+  letter-spacing: 2px;
 }
-label{
-    color: white;
+label {
+  color: white;
 }
-div.optionsDice > button{
-    font-family: newFont;
-    font-size: 16px;
-    background-color: #530F21;
-    color: white;
-    transition: all .4s;
+div.optionsDice > button {
+  font-family: newFont;
+  font-size: 16px;
+  background-color: #530f21;
+  color: white;
+  transition: all 0.4s;
 }
-div.optionsDice > button:hover{
-    color: red;
-    transform: scale(1.1);
+div.optionsDice > button:hover {
+  color: red;
+  transform: scale(1.1);
 }
-div.box > div.info > div.options{
-    margin: 10px;
-    padding: 10px;
-    background-color: #0E151F;
-    width: 322px;
-    height: 190px;
-    
+div.box > div.info > div.options {
+  margin: 10px;
+  padding: 10px;
+  background-color: #0e151f;
+  width: 322px;
+  height: 190px;
 }
-div.box > div.info > div.options > button{
-    background-color: #530F21;
-    font-family: newFont;
-    font-size: 20px;
-    color: white;
-    transition: all .4s;
-    height: 50px;
-    width: 330px;
-    margin-bottom: 15px;
+div.box > div.info > div.options > button {
+  background-color: #530f21;
+  font-family: newFont;
+  font-size: 20px;
+  color: white;
+  transition: all 0.4s;
+  height: 50px;
+  width: 330px;
+  margin-bottom: 15px;
 }
-div.box > div.info > div.options > button:hover{
-    color: red;
-    transform: scale(1.1);
+div.box > div.info > div.options > button:hover {
+  color: red;
+  transform: scale(1.1);
 }
